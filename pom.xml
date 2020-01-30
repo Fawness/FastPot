@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.coords.fastpot</groupId>
     <artifactId>FastPot</artifactId>
-    <version>5.0</version>
+    <version>5.1</version>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -18,18 +18,18 @@
     </repositories>
     <dependencies>
         <!--Spigot API-->
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.11.2-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
+    <dependency>
+           <groupId>org.spigotmc</groupId>
+           <artifactId>spigot-api</artifactId>
+           <version>1.15.1-R0.1-SNAPSHOT</version>
+           <scope>provided</scope>
+    </dependency>
         <!--Bukkit API-->
-        <dependency>
+    <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.11.2-R0.1-SNAPSHOT</version>
+            <version>1.15.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
-        </dependency>
+    </dependency>
     </dependencies>
 </project>

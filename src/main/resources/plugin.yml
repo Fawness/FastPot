@@ -2,4 +2,4 @@ author: Coords
 description: A Spigot plugin that fixes splash potion lag.
 main: me.coords.fastpot.FastPot
 name: FastPot
-version: 5.0
+version: 5.1
